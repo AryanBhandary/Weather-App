@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="weather-app">
+
+    <!-- Location -->
+    <div class="location">
+      <h1 id="city">Bhaktapur</h1>
+      <p id="country">Bhaktapur, Nepal</p>
+    </div>
+
+    <!-- Date & Time -->
+    <div class="datetime">
+      <p id="date">Monday, 16 December 2025</p>
+      <span id="time">11:30 AM</span>
+    </div>
+
+    <!-- Main Weather -->
+    <div class="weather-main">
+      <div class="icon" id="icon">⛅</div>
+      <div class="temperature" id="temp">--°C</div>
+      <div class="condition" id="condition">Loading...</div>
+    </div>
+
+    <!-- Weather Details -->
+    <div class="weather-details">
+      <div class="box">
+        <span>Feels Like</span><br>
+        <strong id="feels">--°C</strong>
+      </div>
+      <div class="box">
+        <span>Wind</span><br>
+        <strong id="wind">-- m/s</strong>
+      </div>
+      <div class="box">
+        <span>Humidity</span><br>
+        <strong id="humidity">--%</strong>
+      </div>
+      <div class="box">
+        <span>Pressure</span><br>
+        <strong id="pressure">-- hPa</strong>
+      </div>
+    </div>
+
+    <!-- Refresh Button -->
+    <button class="refresh-btn" id="refreshBtn">Refresh</button>
+
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
